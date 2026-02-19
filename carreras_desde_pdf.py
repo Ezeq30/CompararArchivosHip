@@ -633,6 +633,7 @@ def _expandir_race_map(race_map):
     - "ALL" -> [1, 2, 3, ..., 15]
     - "1-13" -> [1, 2, 3, ..., 13]
     - "1,5,7" -> [1, 5, 7]
+    - "2,4,6-7,10" -> [2, 4, 6, 7, 10]  (rangos dentro de listas)
     - "14" -> [14]
     """
     race_map = race_map.strip().upper()
@@ -641,7 +642,36 @@ def _expandir_race_map(race_map):
         # Asumimos máximo 15 carreras (puede ajustarse)
         return list(range(1, 16))
     
-    # Rango: "1-13"
+    carreras = []
+    
+    # Primero dividir por comas para manejar listas como "2,4,6-7,10"
+    if "," in race_map:
+        partes = race_map.split(",")
+        for parte in partes:
+            parte = parte.strip()
+            if not parte:
+                continue
+            
+            # Cada parte puede ser un número único o un rango "X-Y"
+            if "-" in parte:
+                # Es un rango: "6-7"
+                rango_parts = parte.split("-")
+                if len(rango_parts) == 2:
+                    try:
+                        inicio = int(rango_parts[0].strip())
+                        fin = int(rango_parts[1].strip())
+                        carreras.extend(range(inicio, fin + 1))
+                    except ValueError:
+                        pass
+            else:
+                # Es un número único: "2", "4", "10"
+                try:
+                    carreras.append(int(parte))
+                except ValueError:
+                    pass
+        return carreras
+    
+    # Si no hay comas, puede ser un rango simple "1-13" o un número único "14"
     if "-" in race_map:
         partes = race_map.split("-")
         if len(partes) == 2:
@@ -651,17 +681,6 @@ def _expandir_race_map(race_map):
                 return list(range(inicio, fin + 1))
             except ValueError:
                 pass
-    
-    # Lista separada por comas: "1,5,7"
-    if "," in race_map:
-        carreras = []
-        for parte in race_map.split(","):
-            parte = parte.strip()
-            try:
-                carreras.append(int(parte))
-            except ValueError:
-                pass
-        return carreras
     
     # Número único: "14"
     try:

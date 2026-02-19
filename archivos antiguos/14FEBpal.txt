@@ -1,0 +1,455 @@
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     1
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+     TICKET NAME: PALERMO               BIG TICKET NAME: PALERMO                       
+     HOST ASSOCIATION 50:SAN ISIDRO               ODDS TABLE 1: P
+     CALC RULES TABLE 27: PALERMO-HOST             COMMISSION TABLE 133: PALERMO             
+     EVENT-INSTANCE: B2  D     EXPORT TABLE 139: PALERMO1 EXPORT
+     SETTLE TABLE  1: DEFAULT                  IVR CARD ID: ?? IVR ID:          0     EVENT NAME: Hipodromo Argentino De Palermo
+     CSC LINK CODE: B2D
+
+                                          --------- Performance  Options ---------
+  CALC PRICES            N  BROADCAST ODDS         N  SKIP LEG 0 SCANS       N  CALC LOCAL POOLS       N  IMPORT FUTURE POOLS    N
+  NET POOL PRICE         N  IMPORT STP CTRL        N  SKIP LEG 1 SCANS       N  CARDLDR IS SRC         N  TOPCALC AUTO STARTS    Y
+  MORNING LINE PROBS     N  ALLOW VANITY TKTS      N  DISPLAY IN UNITS       N  PKN MAJOR ONLY BETS    N  COUPLED RUNNERS        N
+  PARLAY ALLOWED         N  GSRN CARD              N  MULTIPLE CURRENCIES    Y  UK RACECARD            N  BIG TKT NAME SPCLESS   N
+  POOL CLOSE TIMES       N  CANCEL DELAY ASSOC     0  CARD IS TSS            N  MIRRORED CARD          N  VARIABLE # OF PLACES   N
+  PK6 BET SCRATCHES      N  CIS HOST CARD          N  EXPORT AUTO STARTS     N  SUPPRESS ESI EVENTS    N  INCREMENTAL CARD       N
+  DSPLAY ALMST FIN       N  CARD USES SP FAV       N  PK6 IS P12             N  MAN'L PKN CASHING ON   N  HANDICAP CONTEST       N
+  REMOTE SALES           N  CARD TREATED AS HOST   N  FOOTBALL POOLS CARD    N  DON'T SAVE CARRY       N  FLEXI WAGERING         N
+  PARLAY ONE RUNNER      N  STOP BET MSGS          0
+
+                                   >>>>>        Dividends are ENTERED BY THE OPERATOR       >>>>>                                   
+                                   =====         This card DOES USE SPECIAL MINIMUMS        =====                                   
+                                   >>>>>       This card DOES NOT use net pool pricing      >>>>>                                   
+                                   >>>>>            This card uses Mornline ODDS            >>>>>                                   
+                                   >>>>>  Local Pool Dividends are ENTERED BY THE OPERATOR  >>>>>                                   
+                                   >>>>>  This card DOES NOT allow pk6 wagers on scratches  >>>>>                                   
+                                   >>>>>       This card DOES NOT allow VANITY TICKETS      >>>>>                                   
+                                   >>>>>       This card does not use PARLAY WAGERING       >>>>>                                   
+                                   >>>>>  This card allowes multiple runners per parlay leg >>>>>                                   
+                                   >>>>>         This card DOES NOT display in units        >>>>>                                   
+                                   >>>>>   This card DOES NOT allows Export to AUTO START   >>>>>                                   
+                                   =====        This card uses MULTI-CURRENCY to ARS        =====                                   
+
+     PERF :   15 AFT 
+
+     MAXIMUM ALLOWED RUNNER: 20
+
+  RACE     AVAILABLE POOLS       -----------------------------------CABALLOS-------------------------------------
+                                   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20
+  ----  -----------------------   --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+     1  GAN                       99  99  99  99  99                                                            
+        EXA       TRI
+        DOB( 1,2 )
+        QTN( 1,2,3,4 )
+     2  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99                                        
+        IMP
+        CUA
+        DOB( 2,3 )
+        CAD( 2,3,4,5,6,7 )
+     3  GAN       SEG       TER   99  99  99  99  99  99  99  99  99                                            
+        EXA       TRI
+        DOB( 3,4 )
+        QTN( 3,4,5,6 )
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     2
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+     4  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99  99  99  99                            
+        IMP
+        CUA
+        DOB( 4,5 )
+        TPL( 4,5,6 )
+     5  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99                                        
+        EXA       TRI
+        DOB( 5,6 )
+        QTN( 5,6,7,8 )
+     6  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99  99  99                                
+        IMP
+        CUA
+        DOB( 6,7 )
+        TPL( 6,7,8 )
+     7  GAN       SEG             99  99  99  99  99  99  99  99                                                
+        EXA       TRI
+        DOB( 7,8 )
+        QTN( 7,8,9,10 )
+     8  GAN                       99  99  99  99  99                                                            
+        EXA       TRI
+        DOB( 8,9 )
+        CAD( 8,9,10,11,12,13 )
+     9  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99  99                                    
+        IMP
+        CUA
+        DOB( 9,10 )
+        TPL( 9,10,11 )
+    10  GAN                       99  99  99  99  99                                                            
+        EXA       TRI
+        DOB( 10,11 )
+        QTN( 10,11,12,13 )
+    11  GAN       SEG             99  99  99  99  99  99  99  99                                                
+        EXA       TRI
+        DOB( 11,12 )
+        TPL( 11,12,13 )
+    12  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99  99  99                                
+        IMP
+        CUA
+        DOB( 12,13 )
+    13  GAN       SEG       TER   99  99  99  99  99  99  99  99  99  99  99  99  99  99                        
+        IMP
+        CUA
+
+                                                  COMMISSION TABLES
+
+  RACE #  COMMISSION TABLE                    RACE #  COMMISSION TABLE                    RACE #  COMMISSION TABLE                    
+  ------  -----------------------             ------  -----------------------             ------  -----------------------             
+   1      133:PALERMO                           2      133:PALERMO                           3      133:PALERMO                          
+   4      133:PALERMO                           5      133:PALERMO                           6      133:PALERMO                          
+   7      133:PALERMO                           8      133:PALERMO                           9      133:PALERMO                          
+  10      133:PALERMO                          11      133:PALERMO                          12      133:PALERMO                          
+  13      133:PALERMO                          
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     3
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+
+                                                  CALC RULES TABLES
+
+  RACE #  CALC RULES TABLE                    RACE #  CALC RULES TABLE                    RACE #  CALC RULES TABLE                    
+  ------  -----------------------             ------  -----------------------             ------  -----------------------             
+   1      27:PALERMO-HOST                      2      27:PALERMO-HOST                      3      27:PALERMO-HOST                     
+   4      27:PALERMO-HOST                      5      27:PALERMO-HOST                      6      27:PALERMO-HOST                     
+   7      27:PALERMO-HOST                      8      27:PALERMO-HOST                      9      27:PALERMO-HOST                     
+  10      27:PALERMO-HOST                     11      27:PALERMO-HOST                     12      27:PALERMO-HOST                     
+  13      27:PALERMO-HOST                     
+
+                           CARD DEFAULT MINIMUMS - ARS                          
+
+           POOL MINIMUM INCREMENT                  POOL MINIMUM INCREMENT
+            GAN    1,00      1,00                    CAD    1,00      1,00
+            SEG    1,00      1,00                    PK7    1,00      1,00
+            TER    1,00      1,00                    PK8    1,00      1,00
+            EXA    1,00      1,00                    NOV    1,00      1,00
+            IMP    1,00      1,00                    P10    1,00      1,00
+            TRI    1,00      1,00                    CUA    1,00      1,00
+            DOB    1,00      1,00                    OMN    1,00      1,00
+            TPL    1,00      1,00                    QTE    1,00      1,00
+            QTN    1,00      1,00                    TRP    1,00      1,00
+            QTP    1,00      1,00
+
+                           CARD DEFAULT MINIMUMS - USD                          
+
+           POOL MINIMUM INCREMENT                  POOL MINIMUM INCREMENT
+            GAN    1,00      1,00                    CAD    1,00      1,00
+            SEG    1,00      1,00                    PK7    1,00      1,00
+            TER    1,00      1,00                    PK8    1,00      1,00
+            EXA    1,00      1,00                    NOV    1,00      1,00
+            IMP    1,00      1,00                    P10    1,00      1,00
+            TRI    1,00      1,00                    CUA    1,00      1,00
+            DOB    1,00      1,00                    OMN    1,00      1,00
+            TPL    1,00      1,00                    QTE    1,00      1,00
+            QTN    1,00      1,00                    TRP    1,00      1,00
+            QTP    1,00      1,00
+
+                                                  CARRY CATEGORIES
+
+   First Leg               Pool        Last Distr Distr 
+   Races                   Type   Cat  Pool Carry  Rsv  
+   ----------------------  ----  ----  ---- ----- ----- 
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     4
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+     RSM TABLE
+rsm  race                  bet/pool      --------bet amount---------       wager cost         #combs
+#    map                     type    TS    min     increm     max        min        max      min  max  association map
+---  --------------------  ---  ---  --  -------  -------  ---------  ---------  ----------  ---  ---  -----------------------------
+  1  ALL                   ---  EXA  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  2  2,4,6,9,12            ---  IMP  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  3  13                    ---  IMP  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  4  ALL                   ---  TRI  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  5  1-11                  ---  DOB  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  6  12                    ---  DOB  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  7  4,6,9                 ---  TPL  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  8  11                    ---  TPL  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  9  3,5,7                 ---  QTN  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 10  1,10                  ---  QTN  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 11  2,8                   ---  CAD  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 12  2,4,6,9,12            ---  CUA  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 13  13                    ---  CUA  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+
+
+                                                  TIM BETTING CONTROL
+
+  1) SPORT LIMA          : No       2) CONSESIONES NORTE   : No       3) CONSESIONES SUR     : No       4) CONSESIONES ESTE    : No     
+  5) CONSESIONES OESTE   : No       6) SPORT AREQUIPA      : No       7) CONCES - PROVINCIAS : No       8) SIMULCAST CONCESSION: No     
+ 11) CENTRO DE APUESTAS  : No      13) VIRTUAL HOST        : No      14) PERU AW             : No      16) USD CLIENT 1 SL     : No     
+ 17) BET DIRECTOR INFO   : No      20) QUINTO CENTENARIO   : No      21) HQC AGENCIAS        : No      22) HQB CAMARERO AGENCIA: No     
+ 23) STAR TEST           : No      24) CHILE HOST          : No      31) SAN ISIDRO - SUNMI  : No      32) VALPARAISO - SUNMI  : No     
+ 33) PGP GAMING PARTNER  : No      37) BOLDT GAMING        : No      38)                     : No      39)                     : No     
+ 40)                     : No      41) CAMARERO            : No      42) CAM AGENCIAS        : No      43) CAMARERO WEB        : No     
+ 46)                     : No      47)                     : No      48)                     : No      49)                     : No     
+ 50) SAN ISIDRO          : No      51) AGENCIAS BS AS      : No      52) ASOC. DE HIPODROMOS : No      53) AGENC. DEL INTERIOR : No     
+ 54) SANTA FE            : No      55) VOUCHERS            : No      56) LOTERIA             : YES     57) MINIBANKER          : No     
+ 58) LOTERIA II          : YES     59) LOTERIA III         : YES     60) LOTERIA IV          : YES     61) LA PLATA            : No     
+ 62) TUCUMAN             : No      63) TANDIL              : No      64) AGENCIAS BS AS II   : No      65) HIPODROMO TUCUMAN   : No     
+ 67) HIPODROMO LA PUNTA  : No      68) HIPODROMO DE DOLORES: No      69) MOVIMIENTOS MP      : No      72) BOLDT BUENOS AIRES  : YES    
+ 74) LOTERIA IV PAL      : No      75) HIPODROMO DE AZUL   : No      76) SI APP              : No      77) SL ARGENTINA CLIENTS: No     
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     5
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+        BROADCAST TYPE                CARR TYPE            CARR HOST ASSOCIATION
+        --------------                ---------            ---------------------
+    1   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    2   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    3   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    4   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    5   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    6   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    7   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    8   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+    9   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+   10   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+   11   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+   12   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+   13   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
+
+
+                                                  TIM FEATURE SETTING
+
+  1) SPORT LIMA          : no       2) CONSESIONES NORTE   : no       3) CONSESIONES SUR     : no       4) CONSESIONES ESTE    : no     
+  5) CONSESIONES OESTE   : no       6) SPORT AREQUIPA      : no       7) CONCES - PROVINCIAS : no       8) SIMULCAST CONCESSION: no     
+ 11) CENTRO DE APUESTAS  : no      13) VIRTUAL HOST        : no      14) PERU AW             : no      16) USD CLIENT 1 SL     : no     
+ 17) BET DIRECTOR INFO   : no      20) QUINTO CENTENARIO   : no      21) HQC AGENCIAS        : no      22) HQB CAMARERO AGENCIA: no     
+ 23) STAR TEST           : no      24) CHILE HOST          : no      31) SAN ISIDRO - SUNMI  : no      32) VALPARAISO - SUNMI  : no     
+ 33) PGP GAMING PARTNER  : no      37) BOLDT GAMING        : no      38)                     : no      39)                     : no     
+ 40)                     : no      41) CAMARERO            : no      42) CAM AGENCIAS        : no      43) CAMARERO WEB        : no     
+ 46)                     : no      47)                     : no      48)                     : no      49)                     : no     
+ 50) SAN ISIDRO          : no      51) AGENCIAS BS AS      : no      52) ASOC. DE HIPODROMOS : no      53) AGENC. DEL INTERIOR : no     
+ 54) SANTA FE            : no      55) VOUCHERS            : no      56) LOTERIA             : no      57) MINIBANKER          : no     
+ 58) LOTERIA II          : no      59) LOTERIA III         : no      60) LOTERIA IV          : no      61) LA PLATA            : no     
+ 62) TUCUMAN             : no      63) TANDIL              : no      64) AGENCIAS BS AS II   : no      65) HIPODROMO TUCUMAN   : no     
+ 67) HIPODROMO LA PUNTA  : no      68) HIPODROMO DE DOLORES: no      69) MOVIMIENTOS MP      : no      72) BOLDT BUENOS AIRES  : no     
+ 74) LOTERIA IV PAL      : no      75) HIPODROMO DE AZUL   : no      76) SI APP              : no      77) SL ARGENTINA CLIENTS: no     
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     6
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+                                                 LOCAL ASSOCIATION BETTING CONTROL
+
+Race Local ASSOCIATION         :        GAN  EXA  TRI  DOB  QTN  
+   1  56) LOTERIA              :        alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  DOB  CAD  CUA  
+   2  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  QTN  
+   3  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  DOB  TPL  CUA  
+   4  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  QTN  
+   5  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  DOB  TPL  CUA  
+   6  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTN  
+   7  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  EXA  TRI  DOB  CAD  
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     7
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+
+   8  56) LOTERIA              :        alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  DOB  TPL  CUA  
+   9  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  EXA  TRI  DOB  QTN  
+  10  56) LOTERIA              :        alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  TPL  
+  11  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  DOB  CUA  
+  12  56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
+
+Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  CUA  
+  13  56) LOTERIA              :        alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd 
+
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     8
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+
+                                                  SALES TAX ASSOCS
+
+  1) SPORT LIMA          : no       2) CONSESIONES NORTE   : no       3) CONSESIONES SUR     : no       4) CONSESIONES ESTE    : no     
+  5) CONSESIONES OESTE   : no       6) SPORT AREQUIPA      : no       7) CONCES - PROVINCIAS : no       8) SIMULCAST CONCESSION: no     
+ 11) CENTRO DE APUESTAS  : no      13) VIRTUAL HOST        : no      14) PERU AW             : no      16) USD CLIENT 1 SL     : no     
+ 17) BET DIRECTOR INFO   : no      20) QUINTO CENTENARIO   : no      21) HQC AGENCIAS        : no      22) HQB CAMARERO AGENCIA: no     
+ 23) STAR TEST           : no      24) CHILE HOST          : no      31) SAN ISIDRO - SUNMI  : no      32) VALPARAISO - SUNMI  : no     
+ 33) PGP GAMING PARTNER  : no      37) BOLDT GAMING        : no      38)                     : no      39)                     : no     
+ 40)                     : no      41) CAMARERO            : no      42) CAM AGENCIAS        : no      43) CAMARERO WEB        : no     
+ 46)                     : no      47)                     : no      48)                     : no      49)                     : no     
+ 50) SAN ISIDRO          : YES     51) AGENCIAS BS AS      : YES     52) ASOC. DE HIPODROMOS : YES     53) AGENC. DEL INTERIOR : YES    
+ 54) SANTA FE            : YES     55) VOUCHERS            : YES     56) LOTERIA             : YES     57) MINIBANKER          : YES    
+ 58) LOTERIA II          : YES     59) LOTERIA III         : YES     60) LOTERIA IV          : YES     61) LA PLATA            : YES    
+ 62) TUCUMAN             : YES     63) TANDIL              : YES     64) AGENCIAS BS AS II   : YES     65) HIPODROMO TUCUMAN   : YES    
+ 67) HIPODROMO LA PUNTA  : YES     68) HIPODROMO DE DOLORES: YES     69) MOVIMIENTOS MP      : YES     72) BOLDT BUENOS AIRES  : no     
+ 74) LOTERIA IV PAL      : YES     75) HIPODROMO DE AZUL   : no      76) SI APP              : no      77) SL ARGENTINA CLIENTS: no     
+
+ PRINTER                      CARD RPT        TOP CALCS      FINAL CALCS       PRICES RPT        WILPS RPT         SCAN RPT    
+----------               -------------    -------------    -------------    -------------    -------------    -------------    
+  NOTPRINTED                   0                0                1                1                1                0
+  NORMAL                       0                0                0                0                0                0
+  REPORT                       0                0                0                0                0                0
+  PERU1                        0                0                0                0                0                0
+  PERU2                        0                0                0                0                0                0
+  PQEAST                       0                0                0                0                0                0
+  DOREP1                       0                0                0                0                0                0
+  DOREP2                       0                0                0                0                0                0
+  SIPTR1                       1                0                0                0                0                0
+  CAMARERO                     0                0                0                0                0                0
+  PUERTO2                      0                0                0                0                0                0
+  SIPTR2                       0                0                0                0                0                0
+  NILDA                        0                0                0                0                0                0
+  GONZALO                      0                0                0                0                0                0
+  LAPLAT                       0                0                0                0                0                0
+  GERENC                       0                0                0                0                0                0
+  HIPTUC                       0                0                0                0                0                0
+  SANLUI                       0                0                0                0                0                0
+  AZUL                         0                0                0                0                0                0
+  TANDIL                       0                0                0                0                0                0
+  MESATCP                      0                0                0                0                0                0
+  COMPUTOS                     0                0                0                0                0                0
+
+ SYSTEM                      MASTER    MASTER    MASTER    MASTER    MASTER    MASTER
+ FORMFEEDS                 0                0                0                0                0                0              
+
+
+(A:5.4-20)[50-76=0]    14-FEB-26 13:18:49 -03   SESS: 307  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     9
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 14-FEB-26     MEET:(514) ARG PALERMO                                PERFORMANCE:   15 AFT 
+
+
+                                                  STATE BETTING CONTROL
+
+  1) SPORT LIMA   [  1:PERUDE]  2) CONSESIONES  [  1:PERUDE]  3) CONSESIONES  [  1:PERUDE]  4) CONSESIONES  [  1:PERUDE]
+  5) CONSESIONES  [  1:PERUDE]  6) SPORT AREQUI [  1:PERUDE]  7) CONCES - PRO [  1:PERUDE]  8) SIMULCAST CO [  1:PERUDE]
+ 11) CENTRO DE AP [  1:PERUDE] 13) VIRTUAL HOST [  0:      ] 14) PERU AW      [  1:PERUDE] 16) USD CLIENT 1 [  1:PERUDE]
+ 17) BET DIRECTOR [  0:      ] 20) QUINTO CENTE [  0:      ] 21) HQC AGENCIAS [  0:      ] 22) HQB CAMARERO [  0:      ]
+ 23) STAR TEST    [  0:      ] 24) CHILE HOST   [  0:      ] 31) SAN ISIDRO - [  0:      ] 32) VALPARAISO - [  0:      ]
+ 33) PGP GAMING P [  0:      ] 37) BOLDT GAMING [  0:      ] 38)              [  0:      ] 39)              [  0:      ]
+ 40)              [  0:      ] 41) CAMARERO     [  0:      ] 42) CAM AGENCIAS [  0:      ] 43) CAMARERO WEB [  0:      ]
+ 46)              [  0:      ] 47)              [  0:      ] 48)              [  0:      ] 49)              [  0:      ]
+ 50) SAN ISIDRO   [  0:      ] 51) AGENCIAS BS  [  0:      ] 52) ASOC. DE HIP [  0:      ] 53) AGENC. DEL I [  0:      ]
+ 54) SANTA FE     [  0:      ] 55) VOUCHERS     [  0:      ] 56) LOTERIA      [  0:      ] 57) MINIBANKER   [  0:      ]
+ 58) LOTERIA II   [  0:      ] 59) LOTERIA III  [  0:      ] 60) LOTERIA IV   [  0:      ] 61) LA PLATA     [  0:      ]
+ 62) TUCUMAN      [  0:      ] 63) TANDIL       [  0:      ] 64) AGENCIAS BS  [  0:      ] 65) HIPODROMO TU [  0:      ]
+ 67) HIPODROMO LA [  0:      ] 68) HIPODROMO DE [  0:      ] 69) MOVIMIENTOS  [  0:      ] 72) BOLDT BUENOS [  0:      ]
+ 74) LOTERIA IV P [  0:      ] 75) HIPODROMO DE [  0:      ] 76) SI APP       [  0:      ] 77) SL ARGENTINA [  0:      ]
+
+
+
+                                                                                                    ______________________________
+                                                                                                               APPROVED
+

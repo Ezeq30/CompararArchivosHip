@@ -308,6 +308,45 @@ def obtener_apuestas_por_carrera(ruta_pdf):
     return resultado
 
 
+def _parsear_monto_str(valor_str):
+    """
+    Convierte un string de monto a float, aceptando:
+    - Punto como separador de miles: "5.000" -> 5000.0
+    - Coma como decimal europeo: "1000,50" -> 1000.5
+    - Formato mixto: "1.000,50" -> 1000.5
+    Retorna None si no se puede parsear.
+    """
+    if not valor_str or not isinstance(valor_str, str):
+        return None
+    s = valor_str.strip()
+    if not s:
+        return None
+    # Formato europeo con coma decimal: 1.000,50 -> quitar puntos, coma a punto
+    if "," in s:
+        s = s.replace(".", "").replace(",", ".")
+        try:
+            return float(s)
+        except ValueError:
+            return None
+    # Solo punto(s): "5.000" = 5000 (miles), "5.5" = 5.5 (decimal)
+    if "." in s:
+        partes = s.split(".")
+        # Si la parte tras el último punto tiene exactamente 3 dígitos y todo son dígitos -> miles
+        if len(partes) >= 2 and all(p.isdigit() for p in partes) and len(partes[-1]) == 3:
+            try:
+                return float(s.replace(".", ""))
+            except ValueError:
+                pass
+        try:
+            return float(s)
+        except ValueError:
+            return None
+    try:
+        return float(s)
+    except ValueError:
+        return None
+
+
 def _normalizar_desde_lista_apuestas(apuestas_raw):
     """
     Construye la estructura normalizada a partir de la lista de apuestas
@@ -322,17 +361,7 @@ def _normalizar_desde_lista_apuestas(apuestas_raw):
                 "apuestas": {}
             }
         
-        # Convertir valor string a float o None
-        valor_float = None
-        if valor_str and valor_str.strip():
-            # Normalizar formato: "1000,00" -> "1000.00" -> 1000.0
-            # Si tiene coma, reemplazar por punto (formato decimal europeo)
-            valor_limpio = valor_str.replace(",", ".") if "," in valor_str else valor_str
-            try:
-                valor_float = float(valor_limpio)
-            except (ValueError, AttributeError):
-                valor_float = None
-        
+        valor_float = _parsear_monto_str(valor_str)
         resultado[num_carrera]["apuestas"][codigo_apuesta] = valor_float
     
     return resultado
@@ -371,6 +400,7 @@ def _normalizar_reporte(ruta_reporte):
     # Patrón para líneas de carrera: "1  GAN SEG TER 1/9 1/9 ..."
     patron_carrera = re.compile(r"^\s*(\d+)\s+([A-Z\s]+?)(?:\s+1/9)+", re.MULTILINE)
     patron_caballos = re.compile(r"1/9")
+    patron_scr = re.compile(r"\bSCR\b", re.IGNORECASE)
     patron_apuestas_linea = re.compile(r"\b(GAN|SEG|TER|EXA|TRI|IMP|DOB|TPL|QTN|QTP|CAD|CUA)\b")
     
     lineas = contenido.split("\n")
@@ -384,8 +414,8 @@ def _normalizar_reporte(ruta_reporte):
         m = patron_carrera.match(linea)
         if m:
             num_carrera = int(m.group(1))
-            # Contar "1/9" en esta línea
-            cantidad = len(patron_caballos.findall(linea))
+            # Contar caballos: cada "1/9" cuenta 1, y cada "SCR" también cuenta 1
+            cantidad = len(patron_caballos.findall(linea)) + len(patron_scr.findall(linea))
             caballos_por_carrera[num_carrera] = cantidad
             
             # Extraer apuestas de esta línea
@@ -462,11 +492,8 @@ def _normalizar_reporte(ruta_reporte):
             tipo_rsm = m.group(2).strip()
             valor_str = m.group(3).strip()
             
-            # Convertir valor: "1000,00" -> "1000.00" -> 1000.0
-            valor_limpio = valor_str.replace(",", ".") if "," in valor_str else valor_str
-            try:
-                valor_float = float(valor_limpio)
-            except ValueError:
+            valor_float = _parsear_monto_str(valor_str)
+            if valor_float is None:
                 continue
             
             # Mapear tipo
@@ -492,12 +519,9 @@ def _normalizar_reporte(ruta_reporte):
         for m in patron_default.finditer(seccion_defaults):
             codigo = m.group(1)
             valor_str = m.group(2)
-            # Convertir valor: "1000,00" -> "1000.00" -> 1000.0
-            valor_limpio = valor_str.replace(",", ".") if "," in valor_str else valor_str
-            try:
-                valores_default[codigo] = float(valor_limpio)
-            except ValueError:
-                pass
+            v = _parsear_monto_str(valor_str)
+            if v is not None:
+                valores_default[codigo] = v
     
     # 4. Combinar todo en estructura final
     todas_las_carreras = set(caballos_por_carrera.keys()) | set(apuestas_por_carrera.keys()) | set(valores_por_carrera.keys())
@@ -606,10 +630,8 @@ def _normalizar_reporte_palermo(ruta_reporte):
         if not codigo_apuesta:
             continue
 
-        valor_limpio = valor_str.replace(",", ".") if "," in valor_str else valor_str
-        try:
-            valor_float = float(valor_limpio)
-        except ValueError:
+        valor_float = _parsear_monto_str(valor_str)
+        if valor_float is None:
             continue
 
         if race_map.upper() == "ALL":
@@ -932,11 +954,8 @@ def _leer_palermo_desde_pdf(ruta_pdf):
             if not codigo_apuesta:
                 continue
 
-            # Convertir monto
-            monto_limpio = monto_str.replace(",", ".") if "," in monto_str else monto_str
-            try:
-                valor = float(monto_limpio)
-            except ValueError:
+            valor = _parsear_monto_str(monto_str)
+            if valor is None:
                 continue
 
             # Extraer carreras específicas para Palermo (ej. '2ª4ª6ª9ª; 12ª')
@@ -1176,6 +1195,36 @@ if __name__ == "__main__":
 
         return ruta
 
+    def _formatear_apuestas(apuestas_dict):
+        """
+        Devuelve un string legible de un dict {codigo_apuesta: valor_float_o_None}.
+        Ejemplo: {'GAN': None, 'IMP': 1000.0} -> 'GAN, IMP=1000'
+        """
+        if not apuestas_dict:
+            return "-"
+
+        # Orden lógico de códigos para que se vea prolijo
+        orden_preferido = ["GAN", "SEG", "TER", "EXA", "IMP", "TRI", "DOB", "TPL", "QTN", "QTP", "CAD", "CUA"]
+
+        def _clave_orden(cod):
+            try:
+                return (0, orden_preferido.index(cod))
+            except ValueError:
+                return (1, cod)
+
+        partes = []
+        for codigo in sorted(apuestas_dict.keys(), key=_clave_orden):
+            valor = apuestas_dict[codigo]
+            if valor is None:
+                partes.append(f"{codigo}")
+            else:
+                # Mostrar enteros sin decimales cuando aplique
+                if isinstance(valor, (int, float)) and abs(valor - int(valor)) < 1e-6:
+                    partes.append(f"{codigo}={int(valor)}")
+                else:
+                    partes.append(f"{codigo}={valor:.2f}")
+        return ", ".join(partes)
+
     def _menu_comparar(hipodromo_nombre):
         ruta_pdf_seleccionada = None
         ruta_reporte_seleccionado = None
@@ -1241,6 +1290,39 @@ if __name__ == "__main__":
                 except Exception as e:
                     print(f"Ocurrió un error durante la comparación: {e}\n")
                     continue
+
+                # Para SAN ISIDRO (y formatos similares) mostrar tabla comparativa
+                if hipodromo_nombre.lower() == "san isidro":
+                    try:
+                        datos_pdf_norm = _normalizar_pdf(ruta_pdf_seleccionada, apuestas_raw=apuestas)
+                        datos_rep_norm = _normalizar_reporte(ruta_reporte_seleccionado)
+
+                        todas_carreras = sorted(set(datos_pdf_norm.keys()) | set(datos_rep_norm.keys()))
+
+                        print("")
+                        print("  DATOS OBTENIDOS DEL PDF")
+                        print("  " + "-" * 62)
+                        print("  Carrera  | Cab.   | Apuestas / Montos")
+                        print("  ---------+--------+----------------------------------------")
+                        for c in todas_carreras:
+                            info = datos_pdf_norm.get(c)
+                            cab = info.get("caballos", 0) if info else 0
+                            ap = _formatear_apuestas(info.get("apuestas", {})) if info else "-"
+                            print(f"  {c:>8} | {cab:>6} | {ap}")
+                        print("")
+
+                        print("  DATOS OBTENIDOS DEL REPORTE")
+                        print("  " + "-" * 62)
+                        print("  Carrera  | Cab.   | Apuestas / Montos")
+                        print("  ---------+--------+----------------------------------------")
+                        for c in todas_carreras:
+                            info = datos_rep_norm.get(c)
+                            cab = info.get("caballos", 0) if info else 0
+                            ap = _formatear_apuestas(info.get("apuestas", {})) if info else "-"
+                            print(f"  {c:>8} | {cab:>6} | {ap}")
+                        print("")
+                    except Exception as e:
+                        print(f"No se pudo mostrar la tabla detallada: {e}\n")
 
                 if coincide:
                     print("COMPARACIÓN: todo coincide correctamente entre el PDF y el reporte.\n")
@@ -1385,6 +1467,34 @@ if __name__ == "__main__":
                 except Exception as e:
                     print(f"Ocurrió un error durante la comparación: {e}\n")
                     continue
+
+                # Mostrar tablas de apuestas PDF vs REPORTE para PALERMO
+                try:
+                    datos_rep_norm_pal = _normalizar_reporte_palermo(ruta_reporte)
+                    apuestas_por_fecha = datos_pdf.get("apuestas_por_fecha", {})
+                    apuestas_pdf_pal = apuestas_por_fecha.get(fecha_seleccionada, {})
+                    todas_carreras = sorted(set(apuestas_pdf_pal.keys()) | set(datos_rep_norm_pal.keys()))
+
+                    print()
+                    print("  DATOS OBTENIDOS DEL PDF (PALERMO)")
+                    print("  " + "-" * 62)
+                    print("  Carrera  | Apuestas (código=monto)")
+                    print("  ---------+----------------------------------------")
+                    for c in todas_carreras:
+                        ap_pdf = _formatear_apuestas(apuestas_pdf_pal.get(c, {}))
+                        print(f"  {c:>8} | {ap_pdf}")
+                    print()
+
+                    print("  DATOS OBTENIDOS DEL REPORTE (PALERMO)")
+                    print("  " + "-" * 62)
+                    print("  Carrera  | Apuestas (código=monto)")
+                    print("  ---------+----------------------------------------")
+                    for c in todas_carreras:
+                        ap_rep = _formatear_apuestas(datos_rep_norm_pal.get(c, {}))
+                        print(f"  {c:>8} | {ap_rep}")
+                    print()
+                except Exception as e:
+                    print(f"No se pudo mostrar la tabla detallada de PALERMO: {e}\n")
 
                 if coincide:
                     print("COMPARACIÓN PALERMO: todas las apuestas y montos coinciden con el reporte para la fecha seleccionada.\n")

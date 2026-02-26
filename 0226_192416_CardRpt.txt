@@ -1,9 +1,9 @@
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     1
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     1
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
      TICKET NAME: SAN ISIDRO            BIG TICKET NAME: SAN ISIDRO                    
      HOST ASSOCIATION 50:SAN ISIDRO               ODDS TABLE 1: P
@@ -42,11 +42,11 @@
                                    >>>>>  This card allowes multiple runners per parlay leg >>>>>                                   
                                    >>>>>         This card DOES NOT display in units        >>>>>                                   
                                    =====  This card has Source is Cardloader flag enabled.  =====                                   
-         Loadcode: HSI, CardLoader ID: 44766
+         Loadcode: HSI, CardLoader ID: 45475
                                    >>>>>   This card DOES NOT allows Export to AUTO START   >>>>>                                   
                                    =====        This card uses MULTI-CURRENCY to ARS        =====                                   
 
-     FUTURE PERF :   17 MAT 
+     FUTURE PERF :   19 MAT 
 
      MAXIMUM ALLOWED RUNNER: 24
 
@@ -56,14 +56,14 @@
   ----  -----------------------   --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     2
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     2
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
-     1  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                
+     1  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                            
         EXA       TRI                           
         DOB( 1,2 )
         QTN( 1,2,3,4 )
@@ -71,68 +71,54 @@
         EXA       TRI                           
         DOB( 2,3 )
         CAD( 2,3,4,5,6,7 )
-     3  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                        
+     3  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                
         EXA       TRI                           
         DOB( 3,4 )
         QTN( 3,4,5,6 )
-     4  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                    
+     4  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                        
         EXA                                     
         CUA
         DOB( 4,5 )
-        TPL( 4,5,6 )
-     5  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9                                                        
+        QTN( 4,5,6,7 )
+     5  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                    
         EXA       TRI                           
         DOB( 5,6 )
-        QTN( 5,6,7,8 )
-     6  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                    
+        TPL( 5,6,7 )
+     6  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                
         EXA       TRI                           
         DOB( 6,7 )
-        TPL( 6,7,8 )
-     7  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                    
+        QTN( 6,7,8,9 )
+     7  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                            
         EXA       TRI                           
         DOB( 7,8 )
-        QTN( 7,8,9,10 )
-     8  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9                                                        
+        TPL( 7,8,9 )
+     8  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                
         EXA       TRI                           
         DOB( 8,9 )
         QTP( 8,9,10,11,12 )
-     9  GAN       SEG            1/9 1/9 1/9 1/9 1/9                                                            
+     9  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                            
         EXA       TRI                           
         DOB( 9,10 )
         QTN( 9,10,11,12 )
-    10  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                                
-        EXA                                     
-        CUA
+    10  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                        
+        EXA       TRI                           
         DOB( 10,11 )
         TPL( 10,11,12 )
-    11  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9                                                        
+    11  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                            
         EXA       TRI                           
         DOB( 11,12 )
-        QTP( 11,12,13,14,15 )
     12  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                        
-        EXA                                     
+        IMP                                     
         CUA
-        DOB( 12,13 )
-        QTN( 12,13,14,15 )
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     3
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     3
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
-    13  GAN       SEG            1/9 1/9 1/9 1/9 1/9 1/9                                                        
-        EXA       TRI                           
-        DOB( 13,14 )
-        TPL( 13,14,15 )
-    14  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                
-        IMP       TRI                           
-        DOB( 14,15 )
-    15  GAN       SEG       TER  1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9 1/9                                    
-        IMP                                     
-        CUA
 
                                                   COMMISSION TABLES
 
@@ -142,7 +128,6 @@
    4      130:SAN ISIDRO                        5      130:SAN ISIDRO                        6      130:SAN ISIDRO                       
    7      130:SAN ISIDRO                        8      130:SAN ISIDRO                        9      130:SAN ISIDRO                       
   10      130:SAN ISIDRO                       11      130:SAN ISIDRO                       12      130:SAN ISIDRO                       
-  13      130:SAN ISIDRO                       14      130:SAN ISIDRO                       15      130:SAN ISIDRO                       
 
                                                   CALC RULES TABLES
 
@@ -152,7 +137,6 @@
    4      18:SAN ISIDRO                        5      18:SAN ISIDRO                        6      18:SAN ISIDRO                       
    7      18:SAN ISIDRO                        8      18:SAN ISIDRO                        9      18:SAN ISIDRO                       
   10      18:SAN ISIDRO                       11      18:SAN ISIDRO                       12      18:SAN ISIDRO                       
-  13      18:SAN ISIDRO                       14      18:SAN ISIDRO                       15      18:SAN ISIDRO                       
 
                            CARD DEFAULT MINIMUMS - ARS                          
 
@@ -168,15 +152,6 @@
             QTN    1,00      1,00                    TRP    1,00      1,00
             QTP    1,00      1,00
 
-
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     4
-
-                                              E V E N T   P R O G R A M   R E P O R T
-                                              ---------------------------------------
-
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
-
-
                            CARD DEFAULT MINIMUMS - USD                          
 
            POOL MINIMUM INCREMENT                  POOL MINIMUM INCREMENT
@@ -190,6 +165,15 @@
             TPL    1,00      1,00                    QTE    1,00      1,00
             QTN    1,00      1,00                    TRP    1,00      1,00
             QTP    1,00      1,00
+
+
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     4
+
+                                              E V E N T   P R O G R A M   R E P O R T
+                                              ---------------------------------------
+
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
+
 
                            CARD DEFAULT MINIMUMS - PEN                          
 
@@ -212,12 +196,12 @@
    ----------------------  ----  ----  ---- ----- ----- 
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     5
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     5
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
      RSM TABLE
 rsm  race                  bet/pool      --------bet amount---------       wager cost         #combs
@@ -225,21 +209,19 @@ rsm  race                  bet/pool      --------bet amount---------       wager
 ---  --------------------  ---  ---  --  -------  -------  ---------  ---------  ----------  ---  ---  -----------------------------
   1  ALL                   ---  WPS  TS     2,00     1,00       -.--       -.--        -.--    -    -  ALL
   2  ALL                   ---  EXA  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  3  14                    ---  IMP  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  4  15                    ---  IMP  TS  5000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  5  ALL                   ---  TRI  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  6  1-13                  ---  DOB  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  7  14                    ---  DOB  TS  5000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  8  4,6                   ---  TPL  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
-  9  10,13                 ---  TPL  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
- 10  3                     ---  QTN  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
- 11  5,7                   ---  QTN  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
- 12  1,9,12                ---  QTN  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
- 13  8                     ---  QTP  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
- 14  11                    ---  QTP  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
- 15  2                     ---  CAD  TS   200,00     1,00       -.--       -.--        -.--    -    -  ALL
- 16  4,12                  ---  CUA  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
- 17  10,15                 ---  CUA  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  3  12                    ---  IMP  TS  5000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  4  ALL                   ---  TRI  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  5  1-10                  ---  DOB  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  6  11                    ---  DOB  TS  5000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  7  5                     ---  TPL  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  8  7,10                  ---  TPL  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
+  9  3                     ---  QTN  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 10  1,4                   ---  QTN  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 11  6,9                   ---  QTN  TS  2000,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 12  8                     ---  QTP  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 13  2                     ---  CAD  TS   200,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 14  4                     ---  CUA  TS   500,00     1,00       -.--       -.--        -.--    -    -  ALL
+ 15  12                    ---  CUA  TS  1000,00     1,00       -.--       -.--        -.--    -    -  ALL
 
 
                                                   TIM BETTING CONTROL
@@ -260,12 +242,12 @@ rsm  race                  bet/pool      --------bet amount---------       wager
  74) LOTERIA IV PAL      : No      75) HIPODROMO DE AZUL   : No      76) SI APP              : YES     77) SL ARGENTINA CLIENTS: No     
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     6
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     6
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
         BROADCAST TYPE                CARR TYPE            CARR HOST ASSOCIATION
         --------------                ---------            ---------------------
@@ -281,9 +263,6 @@ rsm  race                  bet/pool      --------bet amount---------       wager
    10   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
    11   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
    12   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
-   13   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
-   14   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
-   15   NORMAL                        RACE          UNKNOWN          TRACK          50:SAN ISIDRO          
 
 
                                                   TIM FEATURE SETTING
@@ -304,12 +283,12 @@ rsm  race                  bet/pool      --------bet amount---------       wager
  74) LOTERIA IV PAL      : no      75) HIPODROMO DE AZUL   : no      76) SI APP              : no      77) SL ARGENTINA CLIENTS: no     
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     7
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     7
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
                                                  IMPORT ASSOCIATION BETTING CONTROL
 
@@ -328,83 +307,68 @@ Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  QTN
       71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
       73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  DOB  TPL  CUA  
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  DOB  QTN  CUA  
    4  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
       71) LARC IMPORT          :     0  alwd BLK  BLK  alwd alwd alwd BLK  
       73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd alwd alwd BLK  
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  QTN  
+Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  TPL  
    5  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
       71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd alwd 
       73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd alwd 
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  TPL  
-   6  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd alwd 
-      73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd alwd 
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  QTN  
+   6  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
+      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
+      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  QTN  
-   7  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd alwd 
-      73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd alwd 
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  TPL  
+   7  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
+      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
+      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  QTP  
-   8  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd BLK  
-      73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd BLK  
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  QTP  
+   8  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
+      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd BLK  
+      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd BLK  
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  QTN  
-   9  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd alwd 
-      73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd alwd 
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  QTN  
+   9  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
+      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
+      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  DOB  TPL  CUA  
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  TPL  
   10  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd alwd alwd BLK  
-      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd alwd alwd BLK  
+      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
+      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd alwd 
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     8
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     8
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
 
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  QTP  
+Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  TRI  DOB  
   11  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd BLK  
-      73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd BLK  
-
-Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  EXA  DOB  QTN  CUA  
-  12  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd alwd alwd BLK  
-      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd alwd alwd BLK  
-
-Race Impo ASSOCIATION          :   stp  GAN  SEG  EXA  TRI  DOB  TPL  
-  13  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  alwd BLK  alwd alwd 
-      73) XPRESSBET IMPORT     :     0  alwd BLK  alwd BLK  alwd alwd 
-
-Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  IMP  TRI  DOB  
-  14  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd alwd 
-      71) LARC IMPORT          :     0  alwd BLK  BLK  BLK  BLK  alwd 
-      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  BLK  BLK  alwd 
+      71) LARC IMPORT          :     0  alwd BLK  BLK  alwd BLK  alwd 
+      73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  alwd BLK  alwd 
 
 Race Impo ASSOCIATION          :   stp  GAN  SEG  TER  IMP  CUA  
-  15  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd 
+  12  66) PALERMO IMPORT       :     0  alwd alwd alwd alwd alwd 
       71) LARC IMPORT          :     0  alwd BLK  BLK  BLK  BLK  
       73) XPRESSBET IMPORT     :     0  alwd BLK  BLK  BLK  BLK  
 
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     9
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:     9
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
                                                  LOCAL ASSOCIATION BETTING CONTROL
 
@@ -459,16 +423,16 @@ Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  QTN
       72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
       76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    10
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    10
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
 
 
-Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  DOB  TPL  CUA  
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  DOB  QTN  CUA  
    4  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
       51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
       52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
@@ -485,7 +449,7 @@ Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  DOB  TPL  CUA
       72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
       76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTN  
+Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  TPL  
    5  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
       51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
       52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
@@ -502,93 +466,93 @@ Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTN
       72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
       76) SI APP               :        alwd alwd alwd alwd alwd alwd 
 
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  TPL  
-   6  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd 
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  QTN  
+   6  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
+      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
+      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
+      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd alwd 
+      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd alwd 
+      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd alwd 
+      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd alwd 
+      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd alwd 
+      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+      76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    11
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    11
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
 
 
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTN  
-   7  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd 
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  TPL  
+   7  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
+      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
+      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
+      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd alwd 
+      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd alwd 
+      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd alwd 
+      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd alwd 
+      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd alwd 
+      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+      76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTP  
-   8  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd 
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  QTP  
+   8  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
+      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
+      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
+      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd alwd 
+      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd alwd 
+      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd alwd 
+      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd alwd 
+      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd alwd 
+      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+      76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTN  
-   9  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd 
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  QTN  
+   9  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
+      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
+      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
+      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd alwd 
+      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd alwd 
+      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd alwd 
+      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
+      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
+      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
+      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
+      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd alwd 
+      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd alwd 
+      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd alwd 
+      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
+      76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    12
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    12
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
 
 
-Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  DOB  TPL  CUA  
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  TPL  
   10  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
       51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
       52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
@@ -605,7 +569,7 @@ Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  DOB  TPL  CUA
       72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
       76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
 
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTP  
+Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  TRI  DOB  
   11  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
       51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
       52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
@@ -622,68 +586,8 @@ Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  QTP
       72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
       76) SI APP               :        alwd alwd alwd alwd alwd alwd 
 
-Race Local ASSOCIATION         :        GAN  SEG  TER  EXA  DOB  QTN  CUA  
-  12  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd alwd 
-
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    13
-
-                                              E V E N T   P R O G R A M   R E P O R T
-                                              ---------------------------------------
-
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
-
-
-
-Race Local ASSOCIATION         :        GAN  SEG  EXA  TRI  DOB  TPL  
-  13  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd 
-
-Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  TRI  DOB  
-  14  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd alwd 
-      51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd alwd 
-      52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd alwd 
-      53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd alwd 
-      54) SANTA FE             :        alwd alwd alwd alwd alwd alwd 
-      55) VOUCHERS             :        alwd alwd alwd alwd alwd alwd 
-      56) LOTERIA              :        alwd alwd alwd alwd alwd alwd 
-      58) LOTERIA II           :        alwd alwd alwd alwd alwd alwd 
-      59) LOTERIA III          :        alwd alwd alwd alwd alwd alwd 
-      60) LOTERIA IV           :        alwd alwd alwd alwd alwd alwd 
-      62) TUCUMAN              :        alwd alwd alwd alwd alwd alwd 
-      64) AGENCIAS BS AS II    :        alwd alwd alwd alwd alwd alwd 
-      69) MOVIMIENTOS MP       :        alwd alwd alwd alwd alwd alwd 
-      72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd alwd 
-      76) SI APP               :        alwd alwd alwd alwd alwd alwd 
-
 Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  CUA  
-  15  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd 
+  12  50) SAN ISIDRO           :        alwd alwd alwd alwd alwd 
       51) AGENCIAS BS AS       :        alwd alwd alwd alwd alwd 
       52) ASOC. DE HIPODROMOS  :        alwd alwd alwd alwd alwd 
       53) AGENC. DEL INTERIOR  :        alwd alwd alwd alwd alwd 
@@ -699,12 +603,12 @@ Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  CUA
       72) BOLDT BUENOS AIRES   :        alwd alwd alwd alwd alwd 
       76) SI APP               :        alwd alwd alwd alwd alwd 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    14
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    13
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
 
 
@@ -755,12 +659,12 @@ Race Local ASSOCIATION         :        GAN  SEG  TER  IMP  CUA
  FORMFEEDS                 0                0                0                0                0                0              
 
 
-(A:5.4-20)[50-76=0]    20-FEB-26 18:01:22 -03   SESS: 313  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    15
+(A:5.4-20)[50-76=0]    26-FEB-26 19:25:45 -03   SESS: 319  SITE  72: LATAM HUB               [CARDTEMPL] CARDRPT.CXX     PAGE:    14
 
                                               E V E N T   P R O G R A M   R E P O R T
                                               ---------------------------------------
 
-          PROGRAM DATE: 21-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   17 MAT 
+          PROGRAM DATE: 27-FEB-26     MEET:(511) ARG SAN ISIDRO                     FUTURE PERFORMANCE:   19 MAT 
 
 
                                                   STATE BETTING CONTROL

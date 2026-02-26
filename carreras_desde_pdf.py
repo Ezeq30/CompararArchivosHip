@@ -487,6 +487,9 @@ def _normalizar_reporte(ruta_reporte):
             "CUA": "CUA",
         }
         
+        # Carreras "reales" del reporte (las que tienen línea con 1/9). ALL solo aplica a estas.
+        carreras_reales_reporte = sorted(caballos_por_carrera.keys()) if caballos_por_carrera else []
+
         for m in patron_rsm.finditer(seccion_rsm):
             race_map = m.group(1).strip()
             tipo_rsm = m.group(2).strip()
@@ -501,11 +504,16 @@ def _normalizar_reporte(ruta_reporte):
             if not codigo_apuesta:
                 continue
             
-            # Expandir race_map a lista de carreras
-            carreras = _expandir_race_map(race_map)
+            # Expandir race_map: si es ALL, solo carreras que existen en el reporte (no los 15 renglones del RSM)
+            if race_map.upper() == "ALL":
+                carreras = list(carreras_reales_reporte) if carreras_reales_reporte else _expandir_race_map(race_map)
+            else:
+                carreras = _expandir_race_map(race_map)
             
-            # Asignar valor a cada carrera
+            # Asignar valor a cada carrera (solo a carreras reales si tenemos lista)
             for carrera in carreras:
+                if carreras_reales_reporte and carrera not in carreras_reales_reporte:
+                    continue
                 if carrera not in valores_por_carrera:
                     valores_por_carrera[carrera] = {}
                 valores_por_carrera[carrera][codigo_apuesta] = valor_float
@@ -523,8 +531,8 @@ def _normalizar_reporte(ruta_reporte):
             if v is not None:
                 valores_default[codigo] = v
     
-    # 4. Combinar todo en estructura final
-    todas_las_carreras = set(caballos_por_carrera.keys()) | set(apuestas_por_carrera.keys()) | set(valores_por_carrera.keys())
+    # 4. Combinar todo en estructura final (solo carreras con línea 1/9 en el reporte, no las filas del RSM)
+    todas_las_carreras = set(caballos_por_carrera.keys()) | set(apuestas_por_carrera.keys())
     
     for num_carrera in todas_las_carreras:
         resultado[num_carrera] = {

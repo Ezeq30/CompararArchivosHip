@@ -92,8 +92,12 @@ def es_apuesta_excluida(nombre):
     """
     Devuelve True si la apuesta debe excluirse (2do pase en adelante, último pase, etc.).
     Regla especial: si contiene 'Final' pero también '1er.Pase' (o '1re.Pase'), NO se excluye.
+    'Doble Final Plus' y variantes de Doble se consideran DOB y no se excluyen.
     """
     if not nombre:
+        return False
+    # Doble Final Plus, Doble Plus, etc. son DOB y no deben excluirse
+    if nombre.strip().lower().startswith("doble"):
         return False
     if _PATRON_EXCLUIR_PASE_SIN_FINAL.search(nombre):
         return True

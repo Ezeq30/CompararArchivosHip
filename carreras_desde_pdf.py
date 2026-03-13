@@ -1534,7 +1534,7 @@ if __name__ == "__main__":
         print("======================================")
         print("1. SAN ISIDRO")
         print("2. PALERMO")
-        print("3. LA PLATA")
+        print("3. LA PLATA  (PROXIMAMENTE)")
         print("4. Salir")
         print("======================================")
 
